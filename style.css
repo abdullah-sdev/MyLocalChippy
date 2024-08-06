@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
+    font-family: "DM Sans", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    background-color: #f2f2f2;
+
+}
+
+nav {
+    /* background-color: #333; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+    padding: 10px;
+    /* color: #fff; */
+    border-bottom: 2px solid #009cfd72;
+}
+
+nav h1 {
+    /* margin: 0 auto; */
+    font-weight: 700;
+    font-size: 1.875rem;
+    color: #f0f7ff;
+    text-transform: capitalize;
+    /* font-family: ; */
+}
+
+main {
+    min-height: 100dvh;
+    /* height: 100vh; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    background-image: url(img/bg-img.png);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 0rem 0rem 4rem 0rem;
+}
+
+header {
+    /* border: 1px solid #0b8fda; */
+
+    /* background-color: #f2f2f2; */
+    padding: 2rem;
+    text-align: justify;
+}
+
+div.linedec {
+    width: 100px;
+    height: 14px;
+    background-color: #f0f7ff;
+    padding: 0px;
+    /* border: 5px solid #b9dbff; */
+    /* transform: rotateX(150deg); */
+    /* transform: translateX(90deg); */
+}
+
+header h2 {
+    margin-top: 0;
+    /* width: 40%; */
+    /* width: clamp(300px, 300px, 50%); */
+    font-size: 2rem;
+    /* line-height: 6rem; */
+    font-weight: 700;
+    padding: 2rem 0px;
+    text-transform: uppercase;
+
+}
+
+header h2 span {
+    font-size: 5rem;
+    font-weight: 800;
+    line-height: 70px;
+}
+
+div {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+div.landingButtons {
+    padding: 5px;
+    gap: 10px;
+}
+
+p {
+    text-align: justify;
+    /* padding: 2.5rem 2rem; */
+    /* margin: 1rem 0rem; */
+    font-size: 16px;
+    /* width: clamp(300px, 500px, 50%); */
+    width: clamp(250px, 500px, 100%);
+
+    /* background-color: #00000066; */
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #0b8fda;
+    font-size: 16px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    text-align: center;
+    width: 200px;
+}
+
+a:hover {
+    color: #ffea48;
+    background-color: #002236;
+    /* border: 2px solid #0b8fda; */
+    /* padding: 8px 18px; */
+    /* box-shadow: 5px 5px; */
+    /* animation-name: bounce;
+    animation-timing-function: ease;
+    animation-duration: .4s; */
+}
+a:active {
+    color: #ffea48;
+    background-color: #065380;
+    /* border: 2px solid #0b8fda; */
+    /* padding: 8px 18px; */
+    /* box-shadow: 5px 5px; */
+    animation-name: bounce;
+    animation-timing-function: ease;
+    animation-duration: .8s;
+}
+
+/* .bounce:hover {
+    animation-name: bounce;
+    animation-timing-function: ease;
+} */
+
+@keyframes bounce {
+    0% {
+        scale: 1;
+    }
+
+    50% {
+        scale: .5;
+    }
+
+    100% {
+        scale: 1;
+    }
+}
