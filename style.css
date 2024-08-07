@@ -127,6 +127,7 @@ a:hover {
     animation-timing-function: ease;
     animation-duration: .4s; */
 }
+
 a:active {
     color: #ffea48;
     background-color: #065380;
@@ -154,24 +155,28 @@ footer {
     font-size: 16px;
 
 }
-footer .phone{
+
+footer .phone {
     font-size: 14px;
 }
-footer div{
+
+footer div {
     padding: 0;
     display: flex;
     flex-direction: row;
     align-items: center;
     /* align-items: stretch; */
     gap: 5px;
-    text-align:center;
+    text-align: center;
 }
+
 @media screen and (max-width: 720px) {
     footer {
         flex-direction: column;
-        gap: .2rem; 
+        gap: .2rem;
     }
 }
+
 @keyframes bounce {
     0% {
         scale: 1;
