@@ -8,7 +8,7 @@ body {
     /* font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
     font-family: "DM Sans", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
-    background-color: #0b8fda;
+    background-color: #01090f;
 
 }
 
@@ -149,7 +149,7 @@ footer {
     align-items: center;
     gap: 1rem;
     padding: 10px;
-    color: #fff;
+    color: #d3f2ff;
     /* border-top: 2px solid #009cfd72; */
     font-size: 16px;
 
